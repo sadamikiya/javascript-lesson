@@ -113,7 +113,7 @@ console.log('5を3で割った時の剰余は' + result + 'です。');
 //foo();
 
 function foo() {
-  let x = 1; 
+  let x = 1;
   console.log(x);//関数内に移動
 }
 foo();//追加
@@ -136,6 +136,41 @@ function displayMessage() {
 }
 
 setTimeout(displayMessage, 3000);
+
+//Q3if
+let num = 5
+
+if (num > 0) {
+  console.log("num is greater than 0");
+} else if (num < 0) {
+  console.log("num is less than 0");
+} else {
+  console.log("num is 0");
+}
+
+//Q4for
+let numbers = []
+for (let i = 0; i < 100; i++) {
+  numbers.push(i)
+}
+console.log(numbers);
+
+//Q5for ×　if
+let mixed = [4, '2', 5, '8', '9', 0, 1];
+
+for (let i = 0; i < mixed.length; i++) {
+  let date = mixed[i];
+
+  if (typeof date === 'number') {
+    if (date % 2 === 0) {
+      console.log('even');
+    } else {
+      console.log('odd');
+    }
+  } else {
+    console.log('not number'); 
+  }
+}
 
 
 
