@@ -130,6 +130,12 @@ foo();//追加
 const rundomNumber = Math.floor(Math.random() * 10);
 console.log(rundomNumber);
 
+//Q2コールバック関数
+function displayMessage() {
+  console.log("Hello World!");
+}
+
+setTimeout(displayMessage, 3000);
 
 
 
