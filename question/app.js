@@ -1,17 +1,14 @@
 //Q1変数
 let nickname = 'ごっしー';
 let age = 28;
-let text = '私のニックネームは ${nickname} です。年齢は ${age} 歳です。';
+let text = `私のニックネームは ${nickname} です。年齢は ${age} 歳です。`;
 
 console.log(text);
-console.log(nickname);
-console.log(age);
 
 //Q2配列
 let languages = ["Javascript", "PHP", "Ruby", "Python", "Go"];
-let languagetext = '私の好きな言語は${languages[1]}です。次は${languages[4]}を勉強してみたいです。';
+let languagetext = `私の好きな言語は${languages[0]}です。次は${languages[3]}を勉強してみたいです。`;
 
-console.log(languages);
 console.log(languagetext);
 
 //Q3オブジェクト
@@ -63,15 +60,14 @@ let sayWorld = function () {
 sayWorld();
 
 //Q7メソッド
-let birthday = '2000-09-27';
+user.birthday = '2000-09-27';
 
-let userSayHello = function () {
+user.sayHello = function () {
   console.log('Hello!');
 };
 
-let newUser = { ...user, birthday: birthday, sayHello: userSayHello };
-console.log(newUser);
-newUser.sayHello();
+console.log(user);
+user.sayHello();
 
 //Q8引数
 let calc = {};
@@ -168,7 +164,7 @@ for (let i = 0; i < mixed.length; i++) {
       console.log('odd');
     }
   } else {
-    console.log('not number'); 
+    console.log('not number');
   }
 }
 
