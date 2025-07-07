@@ -1,6 +1,6 @@
 //Q1変数
-let nickname = 'ごっしー';
-let age = 28;
+let nickname = 'ミッキー';
+let age = 29;
 let text = `私のニックネームは ${nickname} です。年齢は ${age} 歳です。`;
 
 console.log(text);
