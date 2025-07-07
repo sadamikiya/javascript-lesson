@@ -7,9 +7,9 @@ console.log(text);
 
 //Q2配列
 let languages = ["Javascript", "PHP", "Ruby", "Python", "Go"];
-let languagetext = `私の好きな言語は${languages[0]}です。次は${languages[3]}を勉強してみたいです。`;
+let languageText = `私の好きな言語は${languages[0]}です。次は${languages[3]}を勉強してみたいです。`;
 
-console.log(languagetext);
+console.log(languageText);
 
 //Q3オブジェクト
 let user = {
@@ -120,11 +120,11 @@ foo();//追加
 //ここで変数x を出力するにはfunction foo(){}内にconsole.log(x);を記載してあげる必要があります。
 //関数foo();を最後に記載することで呼びですことができます。
 
-//comsole.log(x);を関数外のままである場合にはグローバル変数となるため、関数の外側に変数を指定する必要があります。
+//console.log(x);を関数外のままである場合にはグローバル変数となるため、関数の外側に変数を指定する必要があります。
 
 //Q1標準組み込みオブジェクト
-const rundomNumber = Math.floor(Math.random() * 10);
-console.log(rundomNumber);
+const randomNumber = Math.floor(Math.random() * 10);
+console.log(randomNumber);
 
 //Q2コールバック関数
 function displayMessage() {
